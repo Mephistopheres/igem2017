@@ -1,0 +1,60 @@
+<html>
+    <div>
+        <img src="C:\Users\Mephistopheres\Desktop\igem2017\ws_The_Sierra_Nevada_1920x1080.jpg" class="blur">
+    </div>
+
+    <div class="menu">
+        // to be implemented
+    </div>
+
+    <div class="contents">
+        // to be implemented
+    </div>
+
+</html>
+
+<style>
+    html{
+
+    }
+
+    .menu{
+        width: 20%;
+        height: 100%;
+        background-color: #f5f5f5;
+        opacity: 0.5;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 500;
+    }
+
+    .contents{
+        width: 80%;
+        height:100%;
+        background-color: #fafafa;
+        position: fixed;
+        left: 20%;
+        top:0px;
+        z-index:499;
+    }
+
+    .blur {	
+        filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */        
+        -webkit-filter: blur(10px); /* Chrome, Opera */
+        -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+        filter: blur(10px);
+        filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); 
+        height:110%; 
+        width:110%; 
+        margin-top:-30px; 
+        margin-left:-30px;
+        position: fixed;
+        z-index:1;
+    }
+
+</style>
+
+
+
