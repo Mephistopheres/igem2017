@@ -1,3 +1,8 @@
+h3{
+    text-align: center;
+    font-size: 36px;
+    overflow: initial;
+}
 p{
     -webkit-margin-before: 0em !important;
 }
@@ -38,6 +43,12 @@ body{
     background-color: #e6e6e6;
     width: 100%;
     height: 200px;
+}
+.block_grey p{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3%;
+    font-size: 24px !important;
 }
 .wrapper{
     padding-top: 6%;
