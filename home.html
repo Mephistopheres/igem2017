@@ -88,7 +88,13 @@
         </div>
 
         <div>
-            <center><img class="titleback" src="http://2017.igem.org/wiki/images/1/10/BNDS_China-Title.png"></img></center>
+            <center><img class="titleback" src="http://2017.igem.org/wiki/images/5/5d/BNDS_China-Title1.png"></img></center>
+        </div>
+
+        <div style="text-align: center; font-size: 24px; font-family: Segoe UI, Arial, sans-serif; margin-top:70px;">
+            BNDS
+            <span class="blink">_</span>
+            China
         </div>
 
         <div class="block_white" style="margin-top: 368px;">
@@ -346,6 +352,43 @@
         }
         #sideMenu{
             display: none;
+        }
+        .blink{
+            animation: blink 1s linear infinite;
+            -webkit-animation: blink 1s linear infinite;
+            -moz-animation: blink 1s linear infinite;
+            -ms-animation: blink 1s linear infinite;
+            -o-animation: blink 1s linear infinite;
+        }
+        @keyframes blink{
+            0%{opacity: 1;}
+            50%{opacity: 1;}
+            50.01%{opacity: 0;} 
+            100%{opacity: 0;} 
+        }
+        @-webkit-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 1; }
+            50.01% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @-moz-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 1; }
+            50.01% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @-ms-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 1; }
+            50.01% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @-o-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 1; }
+            50.01% { opacity: 0; }
+            100% { opacity: 0; }
         }
     </style>
 
